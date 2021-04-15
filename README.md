@@ -4,55 +4,55 @@
 A curated list of awesome edge machine learning resources, including research papers, inference engines, challenges, books, meetups and others.
 
 ## Table of Contents
-- [Papers](https://github.com/bisonai/awesome-edge-machine-learning#papers)
-	- [Applications](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Applications)
-	- [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/AutoML)
-	- [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Efficient_Architectures)
-	- [Federated Learning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Federated_Learning)
-	- [ML Algorithms For Edge](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/ML_Algorithms_For_Edge)
-	- [Network Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Network_Pruning)
-	- [Others](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Others)
-	- [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
-- [Datasets](https://github.com/bisonai/awesome-edge-machine-learning#datasets)
-- [Inference Engines](https://github.com/bisonai/awesome-edge-machine-learning#inference-engines)
-- [MCU and MPU Software Packages](https://github.com/bisonai/awesome-edge-machine-learning#mcu-and-mpu-software-packages)
-- [AI Chips](https://github.com/bisonai/awesome-edge-machine-learning#ai-chips)
-- [Books](https://github.com/bisonai/awesome-edge-machine-learning#books)
-- [Challenges](https://github.com/bisonai/awesome-edge-machine-learning#challenges)
-- [Other Resources](https://github.com/bisonai/awesome-edge-machine-learning#other-resources)
-- [Contribute](https://github.com/bisonai/awesome-edge-machine-learning#contribute)
-- [License](https://github.com/bisonai/awesome-edge-machine-learning#license)
+- [Papers](#papers)
+	- [Applications](Papers/Applications)
+	- [AutoML](Papers/AutoML)
+	- [Efficient Architectures](Papers/Efficient_Architectures)
+	- [Federated Learning](Papers/Federated_Learning)
+	- [ML Algorithms For Edge](Papers/ML_Algorithms_For_Edge)
+	- [Network Pruning](Papers/Network_Pruning)
+	- [Others](Papers/Others)
+	- [Quantization](Papers/Quantization)
+- [Datasets](#datasets)
+- [Inference Engines](#inference-engines)
+- [MCU and MPU Software Packages](#mcu-and-mpu-software-packages)
+- [AI Chips](#ai-chips)
+- [Books](#books)
+- [Challenges](#challenges)
+- [Other Resources](#other-resources)
+- [Contribute](#contribute)
+- [License](#license)
 
 ## Papers
-### [Applications](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Applications)
+### [Applications](Papers/Applications)
 There is a countless number of possible edge machine learning applications. Here, we collect papers that describe specific solutions.
 
 
-### [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/AutoML)
+### [AutoML](Papers/AutoML)
 Automated machine learning (AutoML) is the process of automating the end-to-end process of applying machine learning to real-world problems.<sup><a href="https://en.wikipedia.org/wiki/Automated_machine_learning" targe="_blank">Wikipedia</a></sup> AutoML is for example used to design new efficient neural architectures with a constraint on a computational budget (defined either as a number of FLOPS or as an inference time measured on real device) or a size of the architecture.
 
 
-### [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Efficient_Architectures)
+### [Efficient Architectures](Papers/Efficient_Architectures)
 Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
 
-### [Federated Learning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Federated_Learning)
+### [Federated Learning](Papers/Federated_Learning)
 Federated Learning enables mobile phones to collaboratively learn a shared prediction model while keeping all the training data on device, decoupling the ability to do machine learning from the need to store the data in the cloud.<sup><a href="https://ai.googleblog.com/2017/04/federated-learning-collaborative.html" target="_blank">Google AI blog: Federated Learning</a></sup>
 
 
-### [ML Algorithms For Edge](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/ML_Algorithms_For_Edge)
+### [ML Algorithms For Edge](Papers/ML_Algorithms_For_Edge)
 Standard machine learning algorithms are not always able to run on edge devices due to large computational requirements and space complexity. This section introduces optimized machine learning algorithms.
 
 
-### [Network Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Network_Pruning)
+### [Network Pruning](Papers/Network_Pruning)
 Pruning is a common method to derive a compact network – after training, some structural portion of the parameters is removed, along with its associated computations.<sup><a href="http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf" target="_blank">Importance Estimation for Neural Network Pruning</a></sup>
 
 
-### [Others](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Others)
+### [Others](Papers/Others)
 This section contains papers that are related to edge machine learning but are not part of any major group. These papers often deal with deployment issues (i.e. optimizing inference on target platform).
 
 
-### [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
+### [Quantization](Papers/Quantization)
 Quantization is the process of reducing a precision (from 32 bit floating point into lower bit depth representations) of weights and/or activations in a neural network. The advantages of this method are reduced model size and faster model inference on hardware that support arithmetic operations in lower precision.
 
 
